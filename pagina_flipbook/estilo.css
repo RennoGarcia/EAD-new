@@ -36,6 +36,18 @@ header#cabecalho img#titulo{
 	top: 80px;
 	left: 970px;
 }
+
+div.botoes{
+	position: absolute;	
+	width: 650px;
+	height: 80px;
+	/*background-color: blue;*/
+	margin-left: 1150px;
+	margin-top: 950px;
+
+}
+
+
 /*zoom in na imagem*/
 img#bt_informacoes:hover{
 	-webkit-transform: scale(1.1);
@@ -71,11 +83,10 @@ img#bt_menu:hover{
 }
 
 img#bt_menu{
-	position: absolute;
-	top: 950px;
-	left: 1500px;
+	position: relative;
+	top: 0px;
+	left: 350px;
 	width: 300px;
-	margin-bottom: 20px;
 }
 
 img#bt_download:hover{
@@ -84,8 +95,7 @@ img#bt_download:hover{
 
 img#bt_download{
 	position: absolute;
-	top: 950px;
-	left: 600px;
+	top: 0px;
+	left: 0px;
 	width: 300px;
-	margin-bottom: 20px;
 }
