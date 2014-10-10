@@ -77,3 +77,15 @@ img#bt_menu{
 	width: 300px;
 	margin-bottom: 20px;
 }
+
+img#bt_download:hover{
+	-webkit-transform: scale(1.1);
+}
+
+img#bt_download{
+	position: absolute;
+	top: 950px;
+	left: 600px;
+	width: 300px;
+	margin-bottom: 20px;
+}
