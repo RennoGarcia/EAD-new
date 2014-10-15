@@ -29,12 +29,28 @@
 		<div id="corpo">
 			<section>
 
-				<ul>
-					<li></li>
-					<li></li>
-					<li></li>
-					<li></li>
-				</ul>
+				<div>
+					
+				<button onclick="myFunction()" type="button">Change Video</button><br>
+				 
+				<video id="myVideo" controls>
+				  <source id="mp4_src" src="ead-videos/ATV_01_Acessando_o_Moodle.mp4" type="video/mp4">
+				  <source id="ogg_src" src="mov_bbb.ogg" type="video/ogg">
+				  Your browser does not support HTML5 video.
+				</video>
+
+				<script> 
+				function myFunction() { 
+				    document.getElementById("mp4_src").src = "ead-videos/ATV_02_Meu_Moodle.mp4";
+				    
+				    document.getElementById("myVideo").load();
+				} 
+				</script> 
+
+				</div>>
+
+
+
 					<div id="video_aula">
 					<iframe src="videos_galeria.html" name="janela" id="frame-spec" width="740" frameborder="0" scrolling="no"></iframe>
 					</div>
