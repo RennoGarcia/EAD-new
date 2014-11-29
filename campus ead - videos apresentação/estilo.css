@@ -1,18 +1,21 @@
 @charset "UTF-8"
 
 body{
-	margin: 0;
-	padding: 0;
-	font-family: sans-serif;
+	
+	background-color: 	
 
 }
 
 header{
-	background: #00795f;
-	width: 100%;
+	padding-top: 0px;
+	margin: 0 auto;
+	background: #90D8E6;
+	width: 80%;
+	margin: 0 auto;
 	padding:  40px 0;
 	color: white;
 	text-align: center;
+	
 }
 
 a{
@@ -21,39 +24,58 @@ a{
 }
 
 nav ul{
-	background-color: #43a286;
+	width: 80%;
+	margin: 0 auto;
+	background-color: #a3a3a3;
 	overflow: hidden;
 	color: white;
 	padding: 0;
 	text-align: center;
-	margin: 0;
-
-	-webkit-transition:max-height:0.4s;
-	-ms-transition:max-height:0.4s;
-	-moz-transition:max-height:0.4s;
-	-o-transition:max-height:0.4s;
-	transition:max-height:0.4s;
+	margin-top: 0px;
+	margin: 0 auto;
+	-webkit-transition:max-height:0.6s;
+	-ms-transition:max-height:0.6s;
+	-moz-transition:max-height:0.6s;
+	-o-transition:max-height:0.6s;
+	transition:max-height:0.6s;
 }
 
 nav ul li{
 	display: inline-block;
-	padding: 20px;
+	padding: 18px;
 
 }
 
 nav ul li:hover{
-	background-color: #399077;
+	background-color:  	#C0C0C0;
+	text-decoration: none;
+	color:	#778899;
 }
 
 
 section{
 	line-height: 1.5em;
 	font-size: 0.9em;
-	padding: 40px;
-	width: 75%;
+	padding: 10px;
+	padding-left: 0px;
+	padding-right: 0px;
+	width: 80%;
 	margin: 0 auto;
 	background-color: #dddddd;
 }
+
+section#information{
+	background-color: #F5F5F5;
+	padding: 0px;
+	margin-left: 25px;
+	width: 400px;
+
+}
+
+
+
+
+
 .hundle {
 	width: 100%;
 	background: #005c48;
