@@ -52,6 +52,12 @@ nav ul li:hover{
 	color:	#778899;
 }
 
+p{
+	font-family: Arial Sans-serif ;
+	font-size:18px ;
+	padding: 10px;
+	text-indent: 30px;
+}
 
 section{
 	line-height: 1.5em;
@@ -67,17 +73,22 @@ section{
 section#information{
 	background-color: #F5F5F5;
 	padding: 0px;
-	margin-left: 25px;
+	margin-left: 105px;
+	margin-top: 50px;
 	width: 400px;
-
+	border: solid 7px transparent;
+	background-color:#F0F0F0;
+	text-align:justify;
 }
 
 
 
 
 
+/*
+/*<div class="hundle">Menu</div>
 .hundle {
-	width: 100%;
+	
 	background: #005c48;
 	text-align: left;
 	box-sizing: border-box;
@@ -85,6 +96,7 @@ section#information{
 	cursor:  pointer;
 	color: white;
 	display: none;
+	width: 80%;
 }
 
 
@@ -113,3 +125,4 @@ section#information{
 
 
 }
+*/
