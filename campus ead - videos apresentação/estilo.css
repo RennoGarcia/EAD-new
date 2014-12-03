@@ -65,7 +65,7 @@ section{
 	padding-left: 0px;
 	padding-right: 0px;
 	width: 80%;
-	height: 600px;
+	height: 800px;
 	margin: 0 auto;
 	background-color: #dddddd;
 }
@@ -73,10 +73,11 @@ section{
 section#information{
 	background-color: #F5F5F5;
 	padding: 0px;
-	margin-left: 105px;
+	margin-left: 150px;
 	margin-top: 50px;
+	
 	width: 400px;
-	height: 400px;
+	height: 600px;
 	border: solid 7px transparent;
 	background-color:#F0F0F0;
 	text-align:justify;
@@ -85,7 +86,7 @@ section#information{
 
 section#cadastro{
 	background-color: #F5F5F5;
-	margin-right: 105px;
+	margin-right: 150px;
 	margin-top: 50px;
 	padding: 0px;
 	width: 400px;
@@ -95,9 +96,22 @@ section#cadastro{
 	text-align:justify;
 	position:relative;
 	float: right;
-
-
 }
+
+section#select{
+	background-color: #F5F5F5;
+	padding: 0px;
+	margin-left: 150px;
+	margin-top: 50px;
+	
+	width: 400px;
+	height: 600px;
+	border: solid 7px transparent;
+	background-color:#F0F0F0;
+	text-align:justify;
+	position:absolute;
+}
+
 form{
 
 	font-family: Arial Sans-serif ;
@@ -107,7 +121,16 @@ form{
 }
 
 
+footer{
+	padding: 10px;
+	padding-left: 0px;
+	padding-right: 0px;
+	width: 80%;
+	height: 80px;
+	margin: 0 auto;
+	background-color: #a3a3a3;
 
+}
 
 
 
